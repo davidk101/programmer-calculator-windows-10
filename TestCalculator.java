@@ -6,8 +6,7 @@ public class TestCalculator {
 	// driver function 
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
 		
-		// ensuring WINDOWS 10 look and feel 
-		// SOURCE: elearning
+		// ensuring WINDOWS 10 look and feel
 		UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
 		
 		MainFrame calc = new MainFrame();
